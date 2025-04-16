@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family:"Rubik", sans-serif;
+    background-image: url("./media/loveisland.jpg");
+
+ /* Relative path from src folder */
+    background-size: cover; /* Make sure the image covers the screen */
+    background-position: center; /* Center the image */
+}
+
+h1{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    color:rgb(207, 166, 104);
+    font-size:90px;
+    text-shadow:3px 3px 10px rgba(0, 0, 0, 0.11);
+}
+
+.cast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 300px 0 300px;
+}
+
+.cast-grid:hover{
+    cursor:default;
+}
+a{
+    text-decoration:none;
+    cursor:default;
+}
+.contestant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(248, 218, 153);
+    font-size: 20px;
+    font-weight:100;
+    color:black;
+    box-shadow: 3px 3px 10px 0.5px rgba(0, 0, 0, 0.301);
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.contestant:hover{
+    cursor:default;
+    transform:scale(1.1);
+}
+.cast-pic{
+    padding: 7px;
+    size: 308px;
+    height: 374px;
+    object-fit:cover;
+}
+
+@media (max-width: 1200px){
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+}
