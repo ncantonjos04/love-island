@@ -5,7 +5,7 @@ body {
     height: 100vh; 
     margin: 0; 
     font-family:"Rubik", sans-serif;
-    background-image: url("./media/loveisland.jpg");
+    background-image: url("media/loveisland.jpg");
 
  /* Relative path from src folder */
     background-size: cover; /* Make sure the image covers the screen */
