@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "LoveIsland": "node src/expressclient.js && node src/app.js"
+    "start": "node expressclient.js && node app.js"
   },
   "author": "",
   "license": "ISC",
