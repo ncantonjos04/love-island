@@ -7,7 +7,6 @@ body {
     font-family:"Rubik", sans-serif;
     background-image: url("media/loveisland.jpg");
 
- /* Relative path from src folder */
     background-size: cover; /* Make sure the image covers the screen */
     background-position: center; /* Center the image */
 }
